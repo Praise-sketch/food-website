@@ -1,67 +1,54 @@
-/*General styles*/
-body{
-            color:#333;
-            font-family:'Arial', sans-serif;
+        body {
+            font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
-            background-color: #f8f8f8;
-        }
-        header{
-            background-color: #ff6347;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-        header h1{
-            margin:0;
-            font-size: 2.5em;
-        }
-        header p{
-            margin:10px 0;
-font-size:1.2em;
-        }
-        section{
             padding: 20px;
+            background-color: #f4f4f9;
+        }
+        h1 {
+            color: #333;
             text-align: center;
         }
-        h2{
-            font-size: 2em;
-            margin-bottom: 20px;
-        }
-        .food-card{
-            background:#fff;
+        .directory {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
             border-radius: 8px;
-        box-shadow: 0 2px 8px rgba(0,0,0.1);
-padding: 20px;
-margin: 20px;
-text-align: left;
-    }
-    .food-card img{
-        width: 100%;
-        height:auto;
-        border-radius:8px;
-    }
-    .food-card h3{
-        margin:15px0 10px;
-        font-size:1em;
-    }
-    .food-card p{
-        font-size: 1em;
-        color:#555;
-    }
-    .food-grid .grid-container{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-        gap:20px;
-        justify-content: center;
-    }
-    /*Footer*/
-    footer{
-        background: #333;
-        color:white;
-        padding:10px 0;
-        text-align:center;
-        margin-top: 30px;
-    }
-
-
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            align-items: center;
+        }
+        li:last-child {
+            border-bottom: none;
+        }
+        .folder::before {
+            content: "📁 ";
+            margin-right: 10px;
+        }
+        .file::before {
+            content: "📄 ";
+            margin-right: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .search-bar {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
