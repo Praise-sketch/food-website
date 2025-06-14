@@ -176,6 +176,7 @@ font-weight: 400;
 font-weight: normal;
 }
 /* SECTION: 4 Contact */
+@media(max-width:480px){
 .contact-section{
 	padding: 50px 0;
 	background-color: var(--background-color);
@@ -246,7 +247,7 @@ padding: 37px;
 	font-size: 23px;
 }
 .contact-section .contact-form textarea{
-padding:120px;
+padding:50px;
 margin-bottom: 5px;
 border: 1px solid var(--text-color);
 border-radius: 35px;
