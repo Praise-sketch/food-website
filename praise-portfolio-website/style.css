@@ -214,7 +214,7 @@ font-weight: normal;
 	border: 1px solid var(--text-color);
 	border-radius: 16px;
 	padding: 20px;
-	width: 900px;
+	width: 100px;
 }
 .contact-section .contact-form .input-2{
 border: 1px solid var(--text-color);
@@ -222,7 +222,7 @@ border-radius: 16px;
 margin-left: 8px;
 padding: 20px;
 margin-bottom: 40px;
-width: 900px;
+width: 100px;
 }
 .contact-section .contact-form .input-2:hover{
 	border: 1px solid red;
@@ -246,7 +246,7 @@ padding: 37px;
 	font-size: 23px;
 }
 .contact-section .contact-form textarea{
-padding:50px;
+padding:30px;
 margin-bottom: 5px;
 border: 1px solid var(--text-color);
 border-radius: 35px;
