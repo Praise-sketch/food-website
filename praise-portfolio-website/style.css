@@ -214,7 +214,7 @@ font-weight: normal;
 	border: 1px solid var(--text-color);
 	border-radius: 16px;
 	padding: 20px;
-	width: 100px;
+	width: 200px;
 }
 .contact-section .contact-form .input-2{
 border: 1px solid var(--text-color);
@@ -222,7 +222,7 @@ border-radius: 16px;
 margin-left: 8px;
 padding: 20px;
 margin-bottom: 40px;
-width: 100px;
+width: 200px;
 }
 .contact-section .contact-form .input-2:hover{
 	border: 1px solid red;
@@ -250,7 +250,7 @@ padding:30px;
 margin-bottom: 5px;
 border: 1px solid var(--text-color);
 border-radius: 35px;
-margin-left: 50px;
+margin-left: 30px;
 
 }
 .contact-section .contact-form .send-btn{
