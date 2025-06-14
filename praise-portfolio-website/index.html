@@ -128,9 +128,9 @@
 </div>
 <div class="contact-form">
 <form action="mailto:chibuksai@gmail.com"  method="post" enctype="text/plain">
-  <input type="text" name="name" required pattern="[a-ZA-z]" class="input-1" placeholder="Enter your Name" required> <br>
-  <input type="text" class="input-2"name="phone" required minlength="1" maxlength="16" placeholder="Enter your Phone number" required><br>
-  <textarea name="message" required minlength="10" maxlength="1000" placeholder="Enter your Message here"></textarea>
+  <input type="text" name="name" required pattern="[a-ZA-z]" class="input-1" placeholder="Enter your Name" required auto complete="name"> <br>
+  <input type="text" class="input-2"name="phone" required minlength="1" maxlength="16" placeholder="Enter your Phone number" required auto complete="phone"><br>
+  <textarea name="message" required minlength="10" auto complete="text" maxlength="1000" placeholder="Enter your Message here"></textarea>
 <button type="submit" class="send-btn">Send a Message</button>
 </form>
 </div>
