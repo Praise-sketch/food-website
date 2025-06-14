@@ -247,9 +247,9 @@ padding: 37px;
 }
 .contact-section .contact-form textarea{
 padding:30px;
-margin-bottom: 5px;
+margin-bottom: 40px;
 border: 1px solid var(--text-color);
-border-radius: 35px;
+border-radius: 40px;
 margin-left: 1px;
 
 }
