@@ -176,7 +176,6 @@ font-weight: 400;
 font-weight: normal;
 }
 /* SECTION: 4 Contact */
-@media(max-width:480px){
 .contact-section{
 	padding: 50px 0;
 	background-color: var(--background-color);
@@ -270,7 +269,7 @@ padding: 23px;
 transition: .1s;
 cursor: pointer;
 }
-}
+
 @media (max-width: 850px){
 /* Section:1 */
 	.hero-section .text h2{
