@@ -1,4 +1,4 @@
-const submitBtn = document.getElementById('submit-btn');
+const submitBtn = document.getElementById('send-btn');
 
 // Function to show loading animation
 function showLoadingAnimation() {
