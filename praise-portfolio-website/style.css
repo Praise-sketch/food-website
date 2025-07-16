@@ -76,11 +76,11 @@ nav .right a span{
 }
 .hero-section .text {
 	flex: 5;
-animation:2s animater ease 1s infinite alternate
+animation:5s animater ease 1s infinite alternate
 }
 .hero-section .text{
 	flex: 2;
-animation:2s animater ease 1s infinite alternate
+animation:6s animater ease 1s infinite alternate
 }
 .hero-section .text h2 {
 	font-size: 45px;
