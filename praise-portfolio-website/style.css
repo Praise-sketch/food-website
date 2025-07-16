@@ -45,8 +45,11 @@ nav .left a{
 	color: var(--text-color);
 	font-size: 22px;
 	font-weight: 600;
+}
+.logo{
 animation:3s rotate ease 1s infinite;
 }
+
 @keyframes rotate{
 0%{
 transform: rotateX(45deg);
