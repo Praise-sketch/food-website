@@ -15,6 +15,18 @@ body{
 	font-family: 'poppins' sans-serif;
 	background-color: var(--background-color);
 }
+@keyframes animater{
+0%{
+font-size:40px;
+font-family:Arial;
+}
+50%{
+background:linear-gradient(#333,#f7f7f7);
+}
+100%{
+background: conic-gradient(red,yellow,green);
+}
+}
 a{
 	color: var(--link-color);
 	text-decoration: none;
@@ -68,6 +80,7 @@ nav .right a span{
 }
 .hero-section .text h2 {
 	font-size: 45px;
+animation:2s animater ease 1s infinite alternate;
 }
 .hero-section .text .links{
 	margin-top: 25px;
