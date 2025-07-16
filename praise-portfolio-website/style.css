@@ -45,7 +45,26 @@ nav .left a{
 	color: var(--text-color);
 	font-size: 22px;
 	font-weight: 600;
+animation:3s rotate ease 1s infinite;
 }
+@keyframes rotate{
+0%{
+transform: rotateX(45deg);
+}
+50%{
+transform: rotateY(45deg);
+}
+75%{
+transform: rotateX(30deg);
+}
+100%{
+transform: rotateY(20deg);
+}
+
+}
+
+
+
 nav .right a{
 	color: var(--text-color);
 	margin: 0 10px;
@@ -179,6 +198,7 @@ background:radial-gradient(cyan,yellow,blue);
 .testimony-section h2{
 	font-size: 35px;
 	margin-bottom: 30px;
+animation:2s anime ease 1s infinite alternate;
 }
 .testimony-section .group{
 	display: flex;
@@ -228,6 +248,7 @@ font-weight: normal;
 .contact-section  h2{
 	font-size: 35px;
 	text-align: center;
+animation:2s anime ease 1s infinite alternate;
 }
 .contact-section h2:hover{
 	color: orange;
