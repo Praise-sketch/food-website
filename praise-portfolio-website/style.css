@@ -46,25 +46,7 @@ nav .left a{
 	font-size: 22px;
 	font-weight: 600;
 }
-.logo{
-animation:3s rotate ease 1s infinite;
-}
 
-@keyframes rotate{
-0%{
-transform: rotateX(45deg);
-}
-50%{
-transform: rotateY(45deg);
-}
-75%{
-transform: rotateX(30deg);
-}
-100%{
-transform: rotateY(20deg);
-}
-
-}
 
 
 
