@@ -21,7 +21,8 @@ font-size:40px;
 font-family:Arial;
 }
 50%{
-background:linear-gradient(#333,#f7f7f7);
+background:linear-gradient(#333,red,#f7f7f7);
+background:radial-gradient(magenta,cyan,red);
 }
 100%{
 background: conic-gradient(red,yellow,green);
