@@ -76,11 +76,9 @@ nav .right a span{
 }
 .hero-section .text {
 	flex: 5;
-animation:5s animater ease 1s infinite alternate
 }
 .hero-section .text{
 	flex: 2;
-animation:6s animater ease 1s infinite alternate
 }
 .hero-section .text h2 {
 	font-size: 45px;
@@ -123,6 +121,7 @@ margin-bottom: 100px;
 .skills-section h2{
 	text-align: center;
 	font-size: 35px;
+animation:2s animater ease 1s infinite alternate;
 }
 .skills-section .text{
 	text-align: center;
