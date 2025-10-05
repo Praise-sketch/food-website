@@ -18,17 +18,12 @@ animation:1s animater ease 1s infinite alternate;
 }
 @keyframes animater{
 0%{
-font-size:40px;
+
 opacity:0;
 font-family:Arial;
 }
-50%{
-background:linear-gradient(#333,red,#f7f7f7);
-color:white;
-background:radial-gradient(magenta,cyan,red);
-}
+
 100%{
-background: conic-gradient(red,yellow,green);
 opacity:100%;
 }
 }
