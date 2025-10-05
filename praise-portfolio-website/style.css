@@ -219,6 +219,7 @@ font-weight: normal;
 }
 
 .contact-section{
+width:100%;
 	margin:50px;
 	justify-content: space-between;
 }
@@ -226,7 +227,7 @@ font-weight: normal;
 .contact-section .text{
 	font-weight:400;
 	color: var(--text-color);
-	padding: 20px;
+	padding: 2px;
 	text-align: center;
 	font-size: 18px;
 }
@@ -240,27 +241,28 @@ animation:2s anime ease 1s infinite alternate;
 	font-size: 37;
 }
 .contact-section .contact-form{
-	width: 50%; 
-	padding: 25px;
+	width: 100%; 
+	padding: 5px;
 	margin-top: 5px;
 	grid: column;
 	gap: 6;
 }
 .contact-section .contact-form .input-1{
 	margin-bottom: 40px;
-	margin-left: 8px;
+	margin-left: 1px;
 	border: 1px solid var(--text-color);
-	border-radius: 16px;
+	border-radius: 30px;
 	padding: 20px;
-	width: 200px;
+width:100%;
+	
 }
 .contact-section .contact-form .input-2{
 border: 1px solid var(--text-color);
-border-radius: 16px; 
+border-radius: 30px; 
 margin-left: 8px;
 padding: 20px;
 margin-bottom: 40px;
-width: 200px;
+width: 100%;
 }
 .contact-section .contact-form .input-2:hover{
 	border: 1px solid red;
@@ -278,6 +280,7 @@ padding: 37px;
 
 }
 .contact-section .contact-form textarea:hover{
+width:100%;
 	border: 1px solid red;
 	border-radius: 27px;
 	color: orange;
@@ -285,6 +288,7 @@ padding: 37px;
 }
 .contact-section .contact-form textarea{
 padding:20px;
+width:100%;
 margin-bottom: 40px;
 border: 1px solid var(--text-color);
 border-radius: 40px;
@@ -293,6 +297,7 @@ border-radius: 40px;
 .contact-section .contact-form .send-btn{
 	border-radius: 40px;
 	padding: 20px;
+width:100%;
 	border: 1px solid var(--text-color);
 margin-top: 23px;
 text-align: center;
