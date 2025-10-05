@@ -177,6 +177,7 @@ background:radial-gradient(cyan,yellow,blue);
 /* SECTION 3: Testimony */
 .testimony-section{
 	padding: 0 50px;
+animation:1s animater ease 1s 2 alternate;
    margin-bottom: 100px;
 
 }
@@ -214,6 +215,8 @@ font-weight: normal;
 }
 /* SECTION: 4 Contact */
 .contact-section{
+animation:1s animater ease 1s 2 alternate;
+width:100%;
 	padding: 50px 0;
 	background-color: var(--background-color);
 }
