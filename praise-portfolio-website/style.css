@@ -14,6 +14,7 @@ html{
 body{
 	font-family: 'poppins' sans-serif;
 	background-color: var(--background-color);
+animation:1s animater ease 1s infinite alternate;
 }
 @keyframes animater{
 0%{
