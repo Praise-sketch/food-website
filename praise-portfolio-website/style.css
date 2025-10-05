@@ -185,7 +185,7 @@ animation:1s animater ease 1s 2 alternate;
 .testimony-section h2{
 	font-size: 25px;
 	margin-bottom: 30px;
-animation:2s anime ease 1s infinite alternate;
+animation:2s animater ease 1s infinite alternate;
 }
 .testimony-section .group{
 	display: flex;
