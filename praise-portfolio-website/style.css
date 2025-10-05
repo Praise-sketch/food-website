@@ -18,6 +18,7 @@ body{
 @keyframes animater{
 0%{
 font-size:40px;
+opacity:0;
 font-family:Arial;
 }
 50%{
@@ -27,6 +28,7 @@ background:radial-gradient(magenta,cyan,red);
 }
 100%{
 background: conic-gradient(red,yellow,green);
+opacity:100%;
 }
 }
 a{
@@ -181,7 +183,7 @@ background:radial-gradient(cyan,yellow,blue);
 
 }
 .testimony-section h2{
-	font-size: 35px;
+	font-size: 25px;
 	margin-bottom: 30px;
 animation:2s anime ease 1s infinite alternate;
 }
