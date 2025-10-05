@@ -220,7 +220,7 @@ font-weight: normal;
 
 .contact-section{
 width:100%;
-	margin:50px;
+	margin:2px;
 	justify-content: space-between;
 }
 
@@ -307,7 +307,7 @@ text-align: center;
 background-color: orange;
 color: #fff;
 border-radius: 27px;
-padding: 23px;
+padding: 15px;
 transition: .1s;
 cursor: pointer;
 }
