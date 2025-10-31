@@ -246,10 +246,10 @@ animation:2s anime ease 1s infinite alternate;
 }
 .contact-section .contact-form{
 	width: 100%; 
-	padding: 5px;
+	padding: 15px;
 	margin-top: 5px;
 	grid: column;
-	gap: 6;
+	gap: 8;
 }
 .contact-section .contact-form .input-1{
 	margin-bottom: 40px;
