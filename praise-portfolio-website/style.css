@@ -225,6 +225,7 @@ width:100%;
 .contact-section{
 width:100%;
 	margin:auto;
+padding:20px;
 	justify-content: space-between;
 }
 
@@ -237,6 +238,8 @@ width:100%;
 }
 .contact-section  h2{
 	font-size: 35px;
+margin-bottom: 10px;
+padding:5px;
 	text-align: center;
 animation:2s anime ease 1s infinite alternate;
 }
@@ -246,7 +249,7 @@ animation:2s anime ease 1s infinite alternate;
 }
 .contact-section .contact-form{
 	width: 100%; 
-	padding: 15px;
+	padding: 20px;
 	margin-top: 5px;
 	grid: column;
 	gap: 8;
